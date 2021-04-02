@@ -2,6 +2,8 @@
 
 ![Example image](./example.png)
 
+## Description
+
 This is a component that shows a circle filled according a percent value.
 
 Their parameters are:
@@ -18,9 +20,11 @@ Their parameters are:
 
 ## Demo
 
-Se puede ver una demostración del componente iniciando el servidor de desarrollo mediante el comando `ng serve`. Cuando el servidor esté inciado, navegar a `http://localhost:4200/`.
+You can play a demo of the component by running the development server using the command `ng serve`. When the server be up, navigate to `http://localhost:4200`.
 
 ---
+
+## Descripción
 
 Componente que muestra un circulo que se llena con un valor porcentual.
 
@@ -36,5 +40,8 @@ Sus parámetros son:
 * **backgroundColor**: color para usar como fondo del círuclo. (se muestra si no se indica imagen de fondo).
 * **percentTextColor**: color para el texto del valor porcentual.
 
+## Demo
+
+Se puede ver una demostración del componente iniciando el servidor de desarrollo mediante el comando `ng serve`. Cuando el servidor esté inciado, navegar a `http://localhost:4200/`.
 
 
