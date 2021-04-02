@@ -1,27 +1,40 @@
-# PercentageCircle
+# Percentage Circle
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+![Example image](./example.png)
 
-## Development server
+This is a component that shows a circle filled according a percent value.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Their parameters are:
 
-## Code scaffolding
+* **size**: diameter of the circle, in pixels (by default 200).
+* **percentage**: percent value to use to fill the circle (from 0 to 100).
+* **animate**: to indicate if the component must use an animation when is filling the circle.
+* **showNumber**: to show or not the value in the center of the circle.
+* **backgroundImage**: an url for an image to use as background of the circle.
+* **backgroundFilter**: to indicate if it must to apply some filters to the background image (grayscale and blur).
+* **percentColor**: color for the content that fills the circle with the percent.
+* **backgroundColor**: a color to use as background of the circle (shown if any image isn't used).
+* **percentTextColor**: color for the text of the percent value.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demo
 
-## Build
+Se puede ver una demostración del componente iniciando el servidor de desarrollo mediante el comando `ng serve`. Cuando el servidor esté inciado, navegar a `http://localhost:4200/`.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+---
 
-## Running unit tests
+Componente que muestra un circulo que se llena con un valor porcentual.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Sus parámetros son:
 
-## Running end-to-end tests
+* **size**: diámetro del círculo, en pixeles (por defecto 200).
+* **percentage**: valor porcentual usado para llenar el circulo (de 0 a 100).
+* **animate**: para indicar si el componente debe usar una animación al llenar el círculo..
+* **showNumber**: si debe mostrar o no el valor porcentual en el centro del círculo.
+* **backgroundImage**: una url de una imagen para usar como fondo del círculo.
+* **backgroundFilter**: para indicar si debe usar o no filtros para la imagen de fondo (escala de grises y desenfoque).
+* **percentColor**: color del contentido que rellena el círculo con el valor porcentual.
+* **backgroundColor**: color para usar como fondo del círuclo. (se muestra si no se indica imagen de fondo).
+* **percentTextColor**: color para el texto del valor porcentual.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

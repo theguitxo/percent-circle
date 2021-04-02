@@ -1,0 +1,24 @@
+<div class="circle__wrapper" [style.width]="sizeStyle" [style.height]="sizeStyle">
+  <div class="circle__background"
+    [ngClass]="{'backgroundFilter':backgroundFilter}"
+    [style.backgroundImage]="backgroundImageStyle"
+    [style.backgroundColor]="backgroundColor"></div>
+  <div class="circle__border" [style.borderColor]="percentColor"></div>
+  <div class="circle__percentage"
+    [style.borderColor]="percentColor"
+    [style.backgroundColor]="percentColor"
+    [style.clip-path]="inset"
+    [style.transition-duration]="transitionTime"></div>
+  <ng-container *ngIf="showNumber">
+    <div class="circle__number">
+      <div [style.color]="percentTextColor">
+        <span
+          class="circle__number-amount"
+          [style.fontSize]="numberAmountSize">{{ percent }}</span>
+        <span
+          class="circle__number-percentage"
+          [style.fontSize]="numberPercentageSize">%</span>
+      </div>
+    </div>
+  </ng-container>
+</div>

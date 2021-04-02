@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "UbuntuBold";
+    src: url(/assets/fonts/Ubuntu/Ubuntu-Bold.ttf) format("truetype");
+}
+
+@mixin circle-radius {
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 100%;
+}
+
+@mixin circle-position {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@mixin circle-size {
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  &__wrapper {
+    position:relative;
+  }
+
+  &__background,
+  &__border,
+  &__percentage {
+    box-sizing: border-box;
+    @include circle-position();
+    @include circle-size();
+  }
+
+  &__border,
+  &__percentage {
+    @include circle-radius();
+  }
+
+  &__background {
+    clip-path: circle(50% at 50% 50%);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__percentage {
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+  }
+
+  &__number {
+    @include circle-position();
+    @include circle-size();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: UbuntuBold;
+
+    & > div {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+}
+
+.backgroundFilter {
+  -moz-filter: blur(2px) grayscale(1);
+  filter: blur(2px) grayscale(1);
+}
