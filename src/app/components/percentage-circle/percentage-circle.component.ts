@@ -63,7 +63,7 @@ export class PercentageCircleComponent implements OnInit, AfterViewInit, OnChang
 
   private pSize = 200;
   private pPercent: number;
-  private pInser: string;
+  private pInset: string;
   private pPercentColor = '#E8E85A';
   private pBackgroundColor = '#EEEEEE';
   private pPercentTextColor = '#000000';
@@ -72,7 +72,7 @@ export class PercentageCircleComponent implements OnInit, AfterViewInit, OnChang
     return `${this.pSize}px`;
   }
   get inset(): any {
-    return this.sanitizer.bypassSecurityTrustStyle(this.pInser);
+    return this.sanitizer.bypassSecurityTrustStyle(this.pInset);
   }
   get percent(): number {
     return this.pPercent;
@@ -116,6 +116,6 @@ export class PercentageCircleComponent implements OnInit, AfterViewInit, OnChang
     if (value === undefined) {
       value = this.pPercent;
     }
-    this.pInser = `inset(${100 - value}% 0 0 0)`;
+    this.pInset = `inset(${100 - value}% 0 0 0)`;
   }
 }
