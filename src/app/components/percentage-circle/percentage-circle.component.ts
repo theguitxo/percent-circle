@@ -1,5 +1,4 @@
 import { AfterViewInit, Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
 
 function isValidColor(color: string): boolean {
   const element: HTMLElement = document.createElement('div');
@@ -72,7 +71,7 @@ export class PercentageCircleComponent implements OnInit, AfterViewInit, OnChang
     return `${this.pSize}px`;
   }
   get inset(): any {
-    return this.sanitizer.bypassSecurityTrustStyle(this.pInset);
+    return this.pInset;
   }
   get percent(): number {
     return this.pPercent;
@@ -93,7 +92,7 @@ export class PercentageCircleComponent implements OnInit, AfterViewInit, OnChang
     return this.animate ? '1s' : '0s';
   }
 
-  constructor(private sanitizer: DomSanitizer) { }
+  constructor() { }
 
   ngOnInit(): void {
     this.setInset(0);
