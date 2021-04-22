@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
   constructor() {}
 
   get backgroundImageFile(): string {
-    return this.backgroundImage ? '/assets/example.jpg' : '';
+    return this.backgroundImage ? './assets/example.jpg' : '';
   }
 
   ngOnInit(): void {
