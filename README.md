@@ -22,6 +22,10 @@ Their parameters are:
 
 You can play a demo of the component cloning this repository, and, into the project folder, by installing the dependencies using the command `npm i` and by running the development server using the command `ng serve`. When the server be up, navigate to `http://localhost:4200`.
 
+Or in this link:
+
+[https://theguitxo.github.io/percent-circle/](https://theguitxo.github.io/percent-circle/)
+
 ## Links
 
 There are a post (in spanish) about this repository at:
@@ -49,6 +53,10 @@ Sus parámetros son:
 ## Demo
 
 Se puede ver una demostración del componente clonando el repositorio, y, en el directorio del proyecto, instalando las depedencias mediante el comando `npm i` e iniciando el servidor de desarrollo mediante el comando `ng serve`. Cuando el servidor esté inciado, navegar a `http://localhost:4200/`.
+
+O en este enlace:
+
+[https://theguitxo.github.io/percent-circle/](https://theguitxo.github.io/percent-circle/)
 
 ## Links
 
