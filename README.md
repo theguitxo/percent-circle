@@ -28,7 +28,7 @@ Or in this link:
 
 ## Links
 
-[Here a file with an explanation about this repository (in spanish):](https://github.com/theguitxo/percent-circle/blob/master/explanation.pdf)
+[Here a file with an explanation about this repository (in spanish)](https://github.com/theguitxo/percent-circle/blob/master/explanation.pdf)
 
 ---
 
@@ -58,5 +58,5 @@ O en este enlace:
 
 ## Links
 
-[Aquí un fichero con una explicación de este repositorio:](https://github.com/theguitxo/percent-circle/blob/master/explanation.pdf)
+[Aquí un fichero con una explicación de este repositorio](https://github.com/theguitxo/percent-circle/blob/master/explanation.pdf)
 
