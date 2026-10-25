@@ -28,9 +28,7 @@ Or in this link:
 
 ## Links
 
-There are a post (in spanish) about this repository at:
-
-[https://www.guitxo.com/2021/04/07/componente-para-mostrar-un-porcentaje-usando-angular-y-clip-path/](https://www.guitxo.com/2021/04/07/componente-para-mostrar-un-porcentaje-usando-angular-y-clip-path/)
+[Here a file with an explanation about this repository (in spanish):](https://github.com/theguitxo/percent-circle/blob/master/explanation.pdf)
 
 ---
 
@@ -60,7 +58,5 @@ O en este enlace:
 
 ## Links
 
-Puede encontrar un post sobre este repositorio en:
-
-[https://www.guitxo.com/2021/04/07/componente-para-mostrar-un-porcentaje-usando-angular-y-clip-path/](https://www.guitxo.com/2021/04/07/componente-para-mostrar-un-porcentaje-usando-angular-y-clip-path/)
+[Aquí un fichero con una explicación de este repositorio:](https://github.com/theguitxo/percent-circle/blob/master/explanation.pdf)
 
